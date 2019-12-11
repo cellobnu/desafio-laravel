@@ -4,6 +4,7 @@ services:
   app:
     build: .
     container_name: app
+
     volumes:
       - .:/var/www
     networks:
