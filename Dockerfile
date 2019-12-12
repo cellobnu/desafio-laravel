@@ -15,4 +15,3 @@ RUN chown -R www-data:www-data /var/www
 RUN chmod 755 /var/www
 
 EXPOSE 9000
-ENTRYPOINT ["php-fpm" ]
