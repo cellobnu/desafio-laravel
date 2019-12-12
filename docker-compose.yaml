@@ -4,9 +4,9 @@ services:
   app:
     build: .
     container_name: app
-
     volumes:
       - .:/var/www
+    entrypoint: sh .docker/app/entrypoint.permission.sh
     networks:
       - app-network
     depends_on:
