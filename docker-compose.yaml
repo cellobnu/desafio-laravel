@@ -11,6 +11,8 @@ services:
       - DB_DATABASE=laravel
       - DB_USERNAME=root
       - DB_PASSWORD=root
+      - NGINX_APP=app
+      - NGINX_PORT=9000
 
     volumes:
       - .:/var/www

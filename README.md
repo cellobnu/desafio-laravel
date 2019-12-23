@@ -1,6 +1,6 @@
-# desafio-laravel
+# desafio-docker
 
-Publicando imagem Laravel do curso de DEVOPS
+Publicando imagem Desafio do curso de DEVOPS
 
 # repositório da imagem
 
